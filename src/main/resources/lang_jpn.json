@@ -12,15 +12,15 @@
 	"no-land-here": "誰の土地でもありません",
 	"land-info": "#{0} 面積:{1} m^2 所有者:{2}",
 	"land-list-header": "土地リスト({0}/{1})",
-	"invalid-land-id": "&4Invalid land id: {0} was given.",
-	"no-such-land": "&4There is no land with id {0}.",
+	"invalid-land-id": "&4間違った土地id: {0} は与えられました",
+	"no-such-land": "&4ID{0}のような土地はありません",
 	"not-your-land": "&4{0}は、あなたの土地ではありません",
 	"already-invitee": "&4{0} is already invitee of land {1}.",
 	"invited-player": "&2You have invited {0} to {1}.",
 	"not-invitee": "&4{0} is not invitee of {1}.",
 	"kicked-invitee": "&2Kicked {0} from {1}.",
 	"invitee-list": "List of invitee for {0}: {1}",
-	"sold-land": "You have sold #{0} by {M}{1}",
+	"sold-land": "あなたは{M}{1}によって #{0}を買いました",
 	"player-not-online": "&4{0}はオンラインではありません",
 	"owner-changed": "&2#{0}のオーナーは{1}です",
 	"whose-header": "{0}の土地:",
@@ -32,5 +32,5 @@
 	"modify-whiteland": "&4ここをいじるには、土地を買う必要があります",
 	"access-forbidden": "&4#{0}: ここは {1}の土地です。 ここに入ることはできません",
 	"pickup-forbidden": "&4#{0}: ここは {1}の土地です。 ここではアイテムを拾えません",
-	"move-forbidden": "&4#{0}: You cannot move to the land. The owner prohibited the access of the land."
+	"move-forbidden": "&4#{0}: あなたは土地に動けません。オーナーは土地への侵入を拒否しています。"
 }
