@@ -1,8 +1,8 @@
 {
-	"pos1-set": "First position was set at {0}:{1}:{2}",
-	"pos2-set": "Seconds position was set at {0}:{1}:{2} (Price: {M}{3}) Use \"/land buy\" to confirm buying.",
-	"pos1-not-set": "First position was not set.",
-	"must-one-world": "&4You must set position in same world.",
+	"pos1-set": "１つ目の地点は {0}:{1}:{2}　にセットされました",
+	"pos2-set": "２つ目の地点は {0}:{1}:{2} にセットされ(値段: {M}{3})  \"/land buy\" で購入できます",
+	"pos1-not-set": "１つ目の地点がセットされていません",
+	"must-one-world": "&4地点は同じワールド内で設定してください",
 	"pos-not-set": "&4Positions are not set correctly.",
 	"land-overlap": "&4You are trying to overlap with land #{0} which {1} owns.",
 	"max-land-count": "&4You have reached max count ({0}) of land.",
