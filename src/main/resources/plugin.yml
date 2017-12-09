@@ -1,5 +1,5 @@
 name: EconomyLand
-version: @VERSION@
+version: 1.0.0
 api: [1.0.0]
 main: me.onebone.economyland.EconomyLand
 author: onebone

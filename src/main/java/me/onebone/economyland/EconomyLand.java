@@ -816,13 +816,13 @@ public class EconomyLand extends PluginBase implements Listener{
 	
 	@EventHandler
 	public void onPlayerInteract(PlayerInteractEvent event){
-		if(event.getAction() == PlayerInteractEvent.LEFT_CLICK_AIR || event.getAction() == PlayerInteractEvent.RIGHT_CLICK_AIR) return;
+		if(event.getAction() == PlayerInteractEvent.Action.LEFT_CLICK_AIR || event.getAction() == PlayerInteractEvent.Action.RIGHT_CLICK_AIR) return;
 		
 		Player player = event.getPlayer();
 		Block block = event.getBlock();
 		Item item = event.getItem();
 		
-		if(item.canBePlaced() && !block.canBeActivated() && event.getAction() == PlayerInteractEvent.RIGHT_CLICK_BLOCK){ // placing
+		if(item.canBePlaced() && !block.canBeActivated() && event.getAction() == PlayerInteractEvent.Action.RIGHT_CLICK_BLOCK){ // placing
 			block = block.getSide(event.getFace());
 		}
 		
@@ -835,7 +835,7 @@ public class EconomyLand extends PluginBase implements Listener{
 						land.getId(), land.getOwner()
 				}));
 				
-				if(event.getAction() == PlayerInteractEvent.RIGHT_CLICK_BLOCK && !block.canBeActivated() && event.getItem().canBePlaced()){
+				if(event.getAction() == PlayerInteractEvent.Action.RIGHT_CLICK_BLOCK && !block.canBeActivated() && event.getItem().canBePlaced()){
 					this.placeQueue.add(player);
 				}
 			}
@@ -845,7 +845,7 @@ public class EconomyLand extends PluginBase implements Listener{
 				player.sendMessage(this.getMessage("modify-whiteland"));
 			}
 			
-			if(event.getAction() == PlayerInteractEvent.RIGHT_CLICK_BLOCK && !block.canBeActivated() && event.getItem().canBePlaced()){
+			if(event.getAction() == PlayerInteractEvent.Action.RIGHT_CLICK_BLOCK && !block.canBeActivated() && event.getItem().canBePlaced()){
 				this.placeQueue.add(player);
 			}
 		}
