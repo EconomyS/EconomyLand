@@ -1,4 +1,4 @@
-# Your preferred language (eng, kor, jpn)
+# Your preferred language (eng, kor, jpn, chs)
 language: eng
 
 max-land: NaN
